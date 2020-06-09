@@ -63,9 +63,9 @@ fn main() {
 }
 
 fn pigger_vowel(cadena: &String) -> String {
-	cadena[..].to_string() + "-hay"
+	cadena[..].to_string() + "hay"
 }
 
 fn pigger_not_vowel(cadena: &String) -> String {
-	cadena[1..].to_string() + "-" + &cadena[..1] + "ay"
+	cadena[1..].to_string() + &cadena[..1] + "ay"
 }
